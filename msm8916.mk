@@ -147,6 +147,12 @@ endif
 PRODUCT_BOOT_JARS += \
     qcmediaplayer
 
+# tcmiface for tcm support
+PRODUCT_PACKAGES += tcmiface
+
+PRODUCT_BOOT_JARS += \
+    tcmiface
+
 # Power HAL
 PRODUCT_PACKAGES += \
     power.msm8916

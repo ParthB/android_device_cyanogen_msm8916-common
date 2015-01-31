@@ -91,7 +91,6 @@ on post-fs-data
     mkdir /data/media 0770 media_rw media_rw
     restorecon_recursive /data/media
 
-    mkdir /data/tombstones 0771 system system
     mkdir /tombstones/modem 0771 system system
     mkdir /tombstones/lpass 0771 system system
     mkdir /tombstones/wcnss 0771 system system

@@ -199,3 +199,7 @@ PRODUCT_COPY_FILES += \
 ifneq ($(QCPATH),)
 PRODUCT_BOOT_JARS += WfdCommon
 endif
+
+# BoringSSL compatability wrapper
+PRODUCT_PACKAGES += \
+    libboringssl-compat
